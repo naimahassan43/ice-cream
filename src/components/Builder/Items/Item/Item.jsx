@@ -1,7 +1,8 @@
 import React from 'react';
 import classes from './Item.module.css';
 
-function Item() {
+const Item = () =>
+{
  return (
   <li className={classes.item}>
   <span>Vanilla</span>

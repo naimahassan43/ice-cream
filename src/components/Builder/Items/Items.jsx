@@ -1,7 +1,8 @@
 import React from 'react';
 import Item from './Item/Item';
 
-function Items() {
+const Items = () =>
+ {
  return (
   <div>
   <ul>
