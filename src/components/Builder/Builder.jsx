@@ -1,6 +1,7 @@
 import React from 'react';
 import classes from './Builder.module.css';
 import Items from './Items/Items';
+import Modal from './Modal/Modal';
 import TotalPrice from './TotalPrice/TotalPrice';
 
 const Builder = () =>
@@ -17,6 +18,9 @@ const Builder = () =>
        Add to Cart
      </button>
    </div>
+   <Modal>
+     Hello Modal!
+   </Modal>
   </div>
  )
 }
